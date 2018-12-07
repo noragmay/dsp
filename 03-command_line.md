@@ -60,7 +60,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > * `ls -U` : do not sort; list entries in directory order
+> > * `ls -p` : shows directories with / 
+> > * `ls -d` : shows only directories
+> > * `ls -X` : sort alphabetically by entry extension
+> > * `ls -m` : fill width with a comma separated list of entries
 
 ---
 
@@ -68,7 +72,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs will essentially execute a command multiple times for an standard input of multiple items
+> > `file1.doc file2.doc file3 | xargs rm` will remove all three files
 
- 
 
