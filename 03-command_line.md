@@ -46,13 +46,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > `ls` : list contents of the directory
-> > `ls -a` : list all contents including hidden files
-> > `ls -l`  
-> > `ls -lh`  
-> > `ls -lah`  
-> > `ls -t`  
-> > `ls -Glp`
+> > * `ls` : list contents of the directory
+> > * `ls -a` : list including hidden files beginning with .
+> > * `ls -l` : 	list with long format - show permissions
+> > * `ls -lh` : list long format with readable file size 
+> > * `ls -lah` : list long format including hidden files beginning with .
+> > * `ls -t` : list sort by time & date
+> > * `ls -Glp` : don't print group names, show append / indicator to directories
 
 ---
 
