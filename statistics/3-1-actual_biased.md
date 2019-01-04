@@ -6,5 +6,5 @@
 >> thinkplot.PrePlot(2)  
 >> thinkplot.Pmfs([pmf, bias_pmf])  
 >> thinkplot.Config(xlabel='Children in Family', ylabel='PMF')  
->> mean_unbiased = np.mean(pmf)  
->> mean_biased = np.mean(bias_pmf)
+>> mean_unbiased = pmf.Mean()
+>> mean_biased = bias_pmf.Mean()
